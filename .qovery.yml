@@ -1,0 +1,11 @@
+---
+application:
+  name: "google-forms"
+  project: "forms"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-google-forms"
+  routes:
+  - application_name: "google-forms"
+    paths:
+    - "/*"
